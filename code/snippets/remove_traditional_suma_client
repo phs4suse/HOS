@@ -1,0 +1,23 @@
+<remove-packages  config:type="list">
+      <package>python2-rhncfg-client</package>
+      <package>spacewalk-client-setup</package> 
+      <package>python2-osad</package>
+      <package>osad</package>
+      <package>spacewalksd</package>
+      <package>python2-spacewalk-client-setup</package>
+      <package>zypp-plugin-spacewalk</package>
+      <package>python2-zypp-plugin-spacewalk</package>
+      <package>python2-suseRegisterInfo</package>
+      <package>rhncfg-actions</package>
+      <package>spacewalk-koan</package>
+      <package>python2-spacewalk-koan</package>
+      <package>rhncfg-client</package>
+      <package>rhncfg</package>
+      <package>python2-rhncfg</package>
+      <package>python2-spacewalk-check</package>
+      <package>spacewalk-client-tools</package>
+      <package>python2-spacewalk-client-tools</package>
+      <package>suseRegisterInfo</package>
+      <package>spacewalk-check</package>
+      <package>python2-rhncfg-actions</package>
+</remove-packages>

@@ -1,0 +1,9 @@
+<script>
+    <filename>spacewalk-sles_execute_salt_bootstrap.sh</filename>
+    <source>
+        <![CDATA[
+#! /bin/bash
+curl -Sks https://suma32.site.com/pub/bootstrap/bootstrap-15-trad.sh | /bin/bash
+        ]]>
+    </source>
+</script>

@@ -1,0 +1,18 @@
+<script>
+    <filename>spacewalk-sles_cleanup_repos12.sh</filename>
+    <source>
+        <![CDATA[
+#! /bin/bash
+/bin/rm -f /etc/zypp/repos.d/space*
+/bin/rm -f /usr/lib/zypp/plugins/services/spacewalk
+/bin/rm -f /usr/lib/zypp/plugins/system/spacewalk
+/bin/rm -f /usr/lib/zypp/plugins/urlresolver/spacewalk
+/usr/bin/zypper -n rm zypp-plugin-spacewalk
+/bin/rm -fr /var/cache/zypp/solv/*
+/bin/rm -f /etc/products.d/baseproduct
+/bin/rm -f /etc/products.d/SUSE_SLES.prod
+/usr/bin/zypper mr -R 1 2 3 4 5 6 7 8 9
+/bin/ln -s /etc/products.d/SLES.prod /etc/products.d/baseproduct
+        ]]>
+    </source>
+</script>

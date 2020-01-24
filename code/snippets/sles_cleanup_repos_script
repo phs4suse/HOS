@@ -1,0 +1,14 @@
+<script>
+    <filename>spacewalk-sles_cleanup_repos.sh</filename>
+    <source>
+        <![CDATA[
+#! /bin/bash
+/bin/rm /etc/zypp/repos.d/*
+/bin/rm /etc/products.d/baseproduct
+/bin/rm /etc/products.d/SUSE_SLES_SP4.prod
+/bin/ln -s /etc/products.d/SUSE_SLES.prod /etc/products.d/baseproduct
+#/usr/sbin/rhn-profile-sync
+#/usr/bin/suse_register --restore-repos
+        ]]>
+    </source>
+</script>
